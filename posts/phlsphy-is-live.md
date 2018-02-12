@@ -1,9 +1,9 @@
 ---
 category: ''
-date: 2018-02-12 14:15:35 UTC
+date: 2018-02-12 13:35:20 UTC
 description: ''
 link: ''
-slug: is-live
+slug: phlsphy-is-live
 tags: ''
 title: phlsphy is Live!
 type: text
