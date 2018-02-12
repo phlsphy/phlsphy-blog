@@ -37,3 +37,8 @@ GLOBAL_CONTEXT = {}
 WRITE_TAG_CLOUD = False
 GENERATE_RSS = False
 DISABLED_PLUGINS = ['classify_page_index', 'classify_sections', 'classify_indexes', 'classify_archive', 'tags', 'sitemap', 'robots', 'create_bundles']
+
+GITHUB_SOURCE_BRANCH = 'src'
+GITHUB_DEPLOY_BRANCH = 'master'
+GITHUB_REMOTE_NAME = 'origin'
+GITHUB_COMMIT_SOURCE = True
