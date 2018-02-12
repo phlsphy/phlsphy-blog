@@ -1,0 +1,17 @@
+<%inherit file="base.tmpl"/>
+<%block name="content">
+    <!--Body content-->
+    <div class="postbox">
+        <ul>
+        % for link in data['links']:
+            <li>
+            <h2>${link['title']}</h>
+            <p>${link['desc']}</p>
+            <p>Deployed on: <a href="${link['live']}">${link['deploy']}</a></p>
+            <p>Source files: <a href="${link['url']}">${link['source']}</a>
+            </li>
+        % endfor
+        </ul>
+    </div>
+    <!--End of body content-->
+</%block>

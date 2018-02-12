@@ -1,0 +1,11 @@
+#############################
+#  Projects
+#
+
+- title: Kloesse
+  url: https://github.com/phlsphy/kloesse
+  source: Github
+  desc: A simple online calculator that divides the page extent of a book into chunks of 32 pages.
+  deploy: Heroku
+  live: https://kloesse.herokuapp.com
+

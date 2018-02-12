@@ -1,0 +1,24 @@
+## -*- coding: utf-8 -*-
+<%namespace name="base" file="base_helper.tmpl" import="*"/>
+<%namespace name="header" file="base_header.tmpl" import="*"/>
+<%namespace name="footer" file="base_footer.tmpl" import="*"/>
+<%namespace name="annotations" file="annotation_helper.tmpl"/>
+${set_locale(lang)}
+     <!-- CSS -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Istok+Web:400,400i,700|Roboto+Mono">
+     <link rel="stylesheet" href="/css/style.css">
+<%block name="extra_head">
+### Leave this block alone.
+</%block>
+${template_hooks['extra_head']()}
+</head>
+<body>
+<%include file="includes/header.html"/>
+    <div id="container">
+         <main id="content">
+            <%block name="content"></%block>
+         </main>
+         <%include file="includes/footer.html"/>
+    </div>
+</body>
+</html>

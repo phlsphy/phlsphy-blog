@@ -1,0 +1,9 @@
+---
+title: About
+slug: about
+hidetitle: True
+---
+
+Hello, this is a little space on the internet for phlsphy. Casual nerd.
+Part-time epistemophiliac. More cook than chef. Waddling through modernity with an analogue inventory.
+
