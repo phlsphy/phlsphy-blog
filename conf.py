@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 import yaml
 BLOG_AUTHOR = "phlsphy"  # (translatable)
 BLOG_TITLE = "phlsphy.net"  # (translatable)
-SITE_URL = "https://stupefied-minsky-e784fd.netlify.com"
+SITE_URL = "https://stupefied-minsky-e784fd.netlify.com/"
 BLOG_EMAIL = " "
 BLOG_DESCRIPTION = "A little space on the internet for phlsphy."  # (translatable)
 COMMENT_SYSTEM = None
