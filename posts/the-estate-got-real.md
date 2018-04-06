@@ -102,9 +102,9 @@ Using the classification model, we set a cut off point at $5,000. We had a budge
 
 Once we have both our models running and we have piped it into a lovely dashboard (I haven't learnt that from the data science course yet, but I'll get there) for our client, we hand it over, give them one day of training on how to use the dashboard, present the models that got us our numbers and output just in case they want to be sure we know what we are doing, we close the deal. 
 
-If you reall want to dig into the data munging, cleaning, machine learning model tuning and are comfortable with .ipynb, you can go [here](https://github.com/phlsphy/GA-Projects/tree/master/project03). 
+If you really want to dig into the data munging, cleaning, machine learning model tuning and are comfortable with .ipynb, you can go [here](https://github.com/phlsphy/GA-Projects/tree/master/project03). 
 
-I wanted to give a high level overview of how I would approach such a business case. It was also Project 3 of the data science course that I am taking so please ignore the boring file names.
+This post is less about the technical what-nots and more about being 'mutually exclusive, collectively exhaustive' to solve a business problem and build a product. It was also Project 3 of the data science course that I am taking so please ignore the boring file names and the block of text in the .ipynb at the start.
 
 ----
 The housing data is the [Ames housing data](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data) from Ames, Iowa. The dataset originally came from Dean De Cock (2011), "Ames, Iowa: Alternative to the Boston Housing Data as an End of Semester Regression Project", _Journal of Statistics Education_, 19(3), [available here](www.amstat.org/publications/jse/v19n3/decock.pdf). It is now currently widely used along with the Boston Housing dataset. The dataset comes with a comprehansive [data dictionary](https://ww2.amstat.org/publications/jse/v19n3/decock/datadocumentation.txt).
