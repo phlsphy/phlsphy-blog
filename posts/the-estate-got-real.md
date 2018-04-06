@@ -36,7 +36,7 @@ In all fairness, these things _can_ be renovated but it will cost an arm and a l
 ## Straight as an arrow
 
 A picture says a thousand words. So, here's a visual representation of the first part:
-![](./assets/linear_regression.png)
+![](/assets/linear_regression.png)
 
 The red line represents our linear model. It generalises the sale price from all of the historical data that we threw at it. 
 
@@ -44,11 +44,11 @@ The blue dots are the actual sale prices that the houses were sold for. Frankly,
 
 We can read it this way: For a house of N shape, N size, in N neighbourhood, the price of the house should be somewhere along the red line. But in reality, there are houses that sold for more and houses that sold for less.
 
-![](./assets/two_sets.png)
+![](/assets/two_sets.png)
 
 Once we have accounted for things that we cannot renovate, we need to account for those that can. The difference between the red line and the blue dots would be due to features that _are_ renovate-able. Things like kitchen quality, bathroom condition, basement finish, type of roof, electricity supply, exterior wall material etc. 
 
-![](./assets/price_difference.png)
+![](/assets/price_difference.png)
 
 Which makes sense in real life. A house might not be in the best neighbourhood, might be smaller than others, might be in an odd shape, but if the inside is top-notch, with a beautiful kitchen, lovely bathrooms, spacious configuration, modern heating and plumbing...it would sell better than if we take just neighbourhood, shape and size to value a property.
 
@@ -65,7 +65,7 @@ If the first part used a linear regression model, the second part can be solved 
 
 The residuals form a normal distribution. It is one of those mathematical magic that happens with residuals, so just take it that it this lovely bell curve occurs as is does. If we plot this and it doesn't make this shape, that probably means that a linear model is not the best choice to model the spread and scatter of the sales prices. With our residuals from all of our sales data, we can split the houses into two sets (yes, again). 
 
-![](./assets/dividing_the_residuals.png)
+![](/assets/dividing_the_residuals.png)
 
 For the Ames housing data, the median (the middle point of the sale prices) is $760. This comes from our linear model in part 1. We split the data right down the middle into the right hand side where the residual is positive (there's a potential for profit; "yes") and the left hand side where the residuals are negative values (total loss; "no"). From there, we have our "yes" and "no" labels. 
 
@@ -77,7 +77,7 @@ We still rely on the coefficients of each feature in a classification model to t
 
 How we can further refine the product that we're gonna hand over to the client (and then collect our dues) is to divide the residuals in a more realistic manner.
 
-![](./assets/dividing_residuals_irl.png)
+![](/assets/dividing_residuals_irl.png)
 
 The second cut off point of $10,000 can be any value, it need not be $10,000. It becomes a business decision, on the part of the real estate company, to decide the values of the other cut off points. This is also where we have to make sure that as data scientists/analysts/consultants, we don't get into a rabbit hole chasing after accuracy, precision, f1-score, and all these various out metrics for our model that we forget about the metrics of our clients. 
 
