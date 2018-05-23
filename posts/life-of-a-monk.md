@@ -11,7 +11,9 @@ type: text
 
 # Three Months and Much Alcohol Later
 
-> It is necessary to set expectations that they should be prepared to give their life to the course for the next 3 months, … it with weekly beer busts. Similar to the lifestyle of medieval monks
+> It is necessary to set expectations that they should be prepared to give their life to the course for the next 3 months, … it with weekly beer busts. Similar to the lifestyle of medieval monks.
+>
+> ~ W.M.S (a coursemate who was already a Director before I was even born.)
 
 There were multiple Reddit posts about how under-prepared most people will be. I did the nearly the entire Data Science courses on DataCamp and I still felt like I needed to put in about 50+ more hours to just get the hang of the basics. I appreciate the alcohol much more than I ever did. It gave me the much needed bursts of energy, and reward. 
 
