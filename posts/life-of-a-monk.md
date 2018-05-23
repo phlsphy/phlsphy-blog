@@ -1,6 +1,6 @@
 ---
 category: ''
-date: 2018-05-23 13:00:00 UTC
+date: 2018-05-23 05:00:00 UTC
 description: ''
 link: ''
 slug: life-of-a-monk
