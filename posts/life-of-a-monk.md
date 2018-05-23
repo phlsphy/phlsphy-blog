@@ -31,7 +31,7 @@ Haha. No. Don't worry. I did purge my files only to download them all again to r
 
 I have an internship lined up for 2 months. It is with a startup called [Smartease](http://smartease.sg/). I am going to build something with image recognition, and that's all I can say about it. Sorry! I'll write about it when I am given the green-light.
 
-After that, I have a full-time position at [Electric8 Growth](http://e8growth.com/). A hands-on, digital consultancy that specialises in Product, UX, Design and Growth here in +65, as a Junior Growth Analyst.
+After that, I have a full-time position at [Electric8 Growth](http://e8growth.com/). A hands-on, digital consultancy that specialises in Product, UX, Design and Growth here in +65, as a Growth Data Analyst.
 
 # Env Create This_Blog
 
